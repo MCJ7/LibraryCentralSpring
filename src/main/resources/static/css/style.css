@@ -1,0 +1,123 @@
+
+body {
+
+height: 100%;
+
+position: relative;
+
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-image: url(/img/libro1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+  }
+}
+
+table,th,td{
+  text-align: center;
+}
+footer {
+   position:absolute;
+   bottom:0;
+   width:100%;  
+
+}
+
+.index{
+   
+    background-image: url(/img/libro1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.list{
+    background-image: url(/img/blueFaded.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.edit{
+    background-image: url(/img/blueCentral.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.error{
+    background-image: url(/img/skyDark.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.op{
+    font-size: 25px;
+    color: white
+}
+.title{
+    font-size: 50px;
+    color: white
+}
+.form-horizontal{
+    display:block;
+    width:20%;
+    margin:0 auto;
+
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+.flex-item {
+  color: blue;
+  width: 500px;
+  margin: 20px;
+  text-align: center;
+  align-items: center;
+  line-height: 45px;
+  font-size: 50px;
+  align-content:flex-start;
+  text-decoration: none;
+  background-color: #608ba5;
+  border-radius: 25px;
+  font-family: 'Lora', serif;
+  border: black; 
+  transition: all .6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.flex-item:hover{
+    transform: scale(1.2);
+    box-shadow: 8px 8px 12px #5c6358;
+    background-color:#05445E;
+}
+
+.h1Index{
+    padding-top: 5px;
+    color:#05445E;
+    text-align: center;
+    font-size: 14vh;
+    font-weight: 900;
+   font-family: 'Lora', serif;
+    text-shadow: 2px 2px white;
+}
+.h1Form,.h1List{
+    padding-top: 35px;
+    padding-bottom: 10px;
+    color:white;
+    text-align: center;
+    font-size: 10vh;
+    font-family: 'Lora', serif;
+    text-shadow: 2px 2px #608ba5;
+}
+
+
